@@ -23,6 +23,5 @@ df = px.data.tips()
 fig = px.violin(df, x="day", y="tip")
 fig.show()
 df = px.data.tips()#
-plotting the figure
 fig = px.scatter_3d(df, x="total_bill", y="sex", z="tip")
 fig.show()
